@@ -1,0 +1,10 @@
+# Ignore virtual environment directories
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# Ignore .agents folder
+.agents/
+
+
