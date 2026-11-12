@@ -119,3 +119,36 @@ You need to write a powerful speech of 350 words for the following title: {title
 * Sincere
 * Hopeful
 * Enthusiastic
+
+## Embeddings
+### Embeddings are mathematical representation of words, phrases and sentences. That captures the menaing and relatedeness.
+Embeddings are numerical (vector) representations of words, phrases, sentences, images, or other data in a multidimensional space.
+
+They capture semantic meaning and relationships between data points.
+
+The main idea is:
+- Similar meanings → vectors tend to be closer. (Cosine Similarity)
+- Different meanings → vectors tend to be farther apart.
+### Usecases:
+* Document Similarity
+* Search Engines
+* Recommendation Systems
+* Language Translation
+
+| Use case | How embeddings help | Example |
+|---|---|---|
+| Document Similarity | Compare semantic similarity | Find similar PDF documents |
+| Search Engines | Search by meaning rather than exact keywords | Search "How to reset password" |
+| Recommendation Systems | Find similar products or content | Recommend similar products |
+| Language Translation | Help align semantically similar text across languages | English ↔ Hindi |
+| RAG | Retrieve relevant document chunks | Chat with PDFs |
+| Clustering | Group semantically similar information | Group customer feedback |
+| Classification | Classify text using vector representations | Spam detection |
+| Duplicate Detection | Identify duplicate or near-duplicate content | Detect duplicate documents |
+| Image Search | Find images based on text or visual similarity | Search images using descriptions |
+| Code Search | Find code based on functionality | Search for authentication logic |
+
+### Distinction:
+- LLM → Understands context and generates responses.
+- Embedding Model → Converts information into meaningful numerical vectors.
+- Vector Database → Stores and retrieves those vectors based on similarity.
